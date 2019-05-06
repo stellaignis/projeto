@@ -1,0 +1,134 @@
+#logo{
+    width: 170px;
+    height: 125px;
+}
+#div{
+    height: 10px;
+    width: auto;
+    background-color: #DAA520;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#esp{
+    background-color: transparent;
+    width: 50px;
+    height: 115px;
+}
+#esp2{
+    background-color: transparent;
+    width: 130px;
+    height: 115px;
+}
+#titulo{
+    background-color: white;
+    font-style: oblique;
+    font-size: 40px;
+}
+#borda{
+    background-color: white;
+    text-align: right;
+    border-left:4px  #DAA520;
+    border-right:4px #DAA520;
+    border-bottom:4px #DAA520;
+    border-top:4px #DAA520;
+}
+#texto{
+    background-color: white;
+    text-align: justify;
+    font-size: 22px;
+}
+#textoedit{
+    background-color: white;
+    text-align: justify;
+    font-size: 22px;
+}
+#textoedit2{
+    background-color: white;
+    text-align: justify;
+    font-size: 22px;
+}
+a{
+    background-color: #DAA520;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: #DAA520;
+}
+#menudomenu{
+    background-color: dodgerblue;
+}
+#video{
+    align-items: center;
+}
+#dop{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p{
+    background-color: #DAA520;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+}
+#setas{
+    float:right;
+}
+#seta{
+    width: 60px;
+    length: 60px;
+}
+#img{
+    width: 200px;
+    length: 100px;
+}
+#simu{
+    display:block;
+    margin: 0 auto;
+    align: center;
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+#perguntas{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    display: inline-block;
+    padding: 10px;
+}
+#biblio{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+}
+input[type=button]{
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #DAA520;
+}
+#bloco{
+    background-color: transparent;
+    width: 80px;
+    height: auto;
+}
+#bloco2{
+    background-color: transparent;
+    width: 220px;
+    height: auto;
+}

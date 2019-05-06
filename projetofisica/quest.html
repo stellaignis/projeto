@@ -1,0 +1,176 @@
+<html>
+
+    <head>
+        <meta charset=" UTF-8">
+
+        <script language="JavaScript">
+            <!--
+            var point=0;
+            function reponse(form) {
+                for (var i=0;i<form.length;i++){
+                    if (form[i].checked){
+                        break
+                    }
+                }
+                var answer=""
+                if (i<form.length){
+                    answer = form[i].value
+                }
+                return answer;
+            }
+
+            function solution(form) {
+                var points=0;var rep="";var comment=""
+
+                if (reponse(form.question1)=="A") {points+=20}
+                if (reponse(form.question2)=="C") {points+=20}
+                if (reponse(form.question3)=="C") {points+=20}
+                if (reponse(form.question4)=="D") {points+=20}
+                if (reponse(form.question5)=="C") {points+=20}
+
+                if (points==0) {comment="Poxa... tente novamente!"}
+                if (points==20) {comment="Err...tenta de novo, vai!"}
+                if (points==40) {comment="Mais ou menos né... tenta outra vez!"}
+                if (points==60) {comment="Pode melhorar mais um pouco né? Tenta de novo!"}
+                if (points==80) {comment="Orra, quase lá!"}
+                if (points==100) {comment="PARABÉNS!!"}
+
+                chaine=''
+                    +'<HTML><HEAD>'
+                    +'<link rel="stylesheet" type="text/css" href="edit.css">'
+                    +'<BODY><CENTER>'
+                    +'<h1>Você fez  '+points+' ponto(s). '+comment+'</h1><BR>'
+                    +'<form METHOD=POST ENCTYPE="text/plain">'
+                    +'<input type="hidden" name="SUBJECT" value="qcm"><BR>'
+                    +'<input type="hidden" name="point" value='+points+'>'
+                    +'<a id="menudomenu" href="quest.html">Voltar para o teste</a>'
+                    +'</form>'
+                    +'</CENTER></BODY>'
+
+                    +'</HEAD></HTML>'
+
+                solu=open();
+                solu.document.write(chaine)
+
+            }
+
+            //-->
+        </script>
+
+        <title>Questionário!</title>
+        <link rel="stylesheet" type="text/css" href="edit.css">
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <img id="logo" src="imagens/FEI_logo_2015.png">
+                </td>
+                <td>
+                    <div id="esp"></div>
+                </td>
+                <td id="titulo">
+                    Semicondutores e Dopagem (Cap.42)<br>
+                    <i>hardware</i><br>
+                </td>
+                <td>
+                    <div id="esp2"></div>
+                </td>
+                <td>
+                    <div >
+                        <table border="2" id="borda">
+                            <td>
+                                Stela Fernandes de Almeida <br>
+                                Lucas Costa Sampaio <br>
+                                Elias Puttini da Cunha<br>
+                                Matheus Victor Alves da Silva<br>
+                            </td>
+                            <td>
+                                [R.A.: 22.118.120-9]<br>
+                                [R.A.: 22.118.196-9]<br>
+                                [R.A.: 22.118.178-7]<br>
+                                [R.A.: 22.118.184-5]<br>
+                            </td>
+                        </table>
+                    </div>
+                </td>
+
+
+            </tr>
+        </table>
+        <div id="div"></div>
+        <a href="home.html">Página Inicial</a>
+        <a href="exemplos.html">Exemplos</a>
+        <a href="video.html">Video-Aulas</a>
+        <a href="simulacao.html">Simulação</a>
+        <a href="quest.html">Questionário</a>
+        <a href="biblio.html">Bibliografia</a>
+        <div id="div"></div>
+
+    <!--webbot bot="HTMLMarkup" startspan TAG="XBOT" --><form NAME="QCM"><!--webbot bot="HTMLMarkup" endspan
+    -->
+            <table>
+                <tr>
+                    <td id="bloco2"></td>
+                    <td>
+                        <u><h1>Cada pergunta vale 20 pontos</h1></u><br>
+
+                        <div id="perguntas">
+                            <h1>Em um semicondutor a banda de energia é:</h1><br>
+                            <input TYPE="RADIO" NAME="question1" VALUE="A">  Relativamente pequena, facilitando o salto de elétrons para a banda de condução<br>
+                            <input TYPE="RADIO" NAME="question1" VALUE="B"> Inexistente<br>
+                            <input TYPE="RADIO" NAME="question1" VALUE="C"> Muito grande, dificultando o salto dos elétrons para outras camadas<br>
+                            <br>
+
+                            <h1>Qual das estruturas a seguir é a do semicondutor?</h1>
+                            <br>(considere da esquerda para direita)<br>
+                            <img src="imagens/Captura%20de%20Tela%20(54).png"><img src="imagens/Captura%20de%20Tela%20(56).png"><img src="imagens/semicond.png"><br>
+
+                            <input TYPE="RADIO" NAME="question2" VALUE="A"> A primeira<br>
+                            <input TYPE="RADIO" NAME="question2" VALUE="B"> A segunda<br>
+                            <input TYPE="RADIO" NAME="question2" VALUE="C"> A terceira<br>
+                            <br>
+                            <h1>Assinale a alternativa INCORRETA sobre Dopagem:</h1>
+                            <input TYPE="RADIO" NAME="question3" VALUE="A"> Dopagem consiste num procedimento de adição de impurezas químicas a um elemento semicondutor para transformá-lo num elemento mais condutor, porém, de forma controlada.<br>
+                            <input TYPE="RADIO" NAME="question3" VALUE="B"> Três elementos comuns na dopagem eletrônica são o carbono, o silício e o germânio.<br>
+                            <input TYPE="RADIO" NAME="question3" VALUE="C"> Existem dois tipos de dopagem: N (ocorre com a adição de fósforo ou arsênico ao silício) e B (nesta dopagem, há adição de boro ou gálio ao silício)<br>
+                            <br>
+                            <h1>Selecione a alternativa que contém um material que não é um semicondutor:</h1>
+                            <input TYPE="RADIO" NAME="question4" VALUE="A"> Led<br>
+                            <input TYPE="RADIO" NAME="question4" VALUE="B"> Transistor<br>
+                            <input TYPE="RADIO" NAME="question4" VALUE="C"> Sensor de velocidade<br>
+                            <input TYPE="RADIO" NAME="question4" VALUE="D"> Nenhuma das alternativas anteriores<br>
+                            <br>
+                            <h1>Assinale a alternativa correta: </h1>
+                            <input TYPE="RADIO" NAME="question5" VALUE="A"> Os metais possuem pouca condutividade<br>
+                            <input TYPE="RADIO" NAME="question5" VALUE="B"> O fenômeno da condutividade ocorre apenas em condutores e não em isolantes<br>
+                            <input TYPE="RADIO" NAME="question5" VALUE="C"> Condutividade elétrica é o inverso de resistividade<br>
+                            <br>
+                        </div>
+                        <input TYPE="BUTTON" NAME="valide" VALUE="RESULTADOS"
+                               onclick="javascript:solution(this.form);"><br>
+                    </td>
+                    <td id="bloco2"></td>
+                </tr>
+            </table>
+
+
+        <br>
+
+            <table id="setas">
+                <tr>
+                    <td>
+                        <a href="simulacao.html"><img id="seta" src="imagens/outro.png"</a>
+                    </td>
+                    <td>
+                        <a href="#logo"><img id="seta" src="imagens/cima.png"></a>
+                    </td>
+                    <td>
+                        <a href="biblio.html"><img id="seta" src="imagens/lado.png"></a>
+                    </td>
+                </tr>
+            </table>
+
+    </body>
+</html>
